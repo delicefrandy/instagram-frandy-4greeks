@@ -6,6 +6,9 @@
 .container{
     background-color: var(--gray);
 }
+.container-principal{
+    min-height: 1024px;
+}
 
 i.lead{
     font-size: 1.8rem;
@@ -31,13 +34,19 @@ div.navbar-collapse{
 }
 
 button.btn{
-    background-color: red;
+    background-color: rgb(182, 8, 109);
     color: white;
     &:hover{
-        color:#0c1110;
+        color:#ea9b0a;
     }
 }
 
 ul.dropdown-menu{
     margin-left: -120px;
+}
+
+img{
+    width: 500px;
+    height: 400;
+    
 }
