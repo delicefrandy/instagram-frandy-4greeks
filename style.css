@@ -1,0 +1,43 @@
+:root{
+    --gray: #f3eded;
+}
+
+
+.container{
+    background-color: var(--gray);
+}
+
+i.lead{
+    font-size: 1.8rem;
+}
+
+a.color-red{
+    color: red;
+    &:hover{
+        color: rgb(240, 17, 17);
+    }
+}
+
+li.list-li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.navbar-collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.btn{
+    background-color: red;
+    color: white;
+    &:hover{
+        color:#0c1110;
+    }
+}
+
+ul.dropdown-menu{
+    margin-left: -120px;
+}
